@@ -18,12 +18,12 @@ $('a[href="#top"]').on('click', function () {
 });
 
 
-// var swiper = new Swiper(".mySwiper", {
-//   pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//   },
-// });
+var swiper = new Swiper(".mySwiper", {
+  pagination: {
+    el: ".swiper-pagination",
+     clickable: true,
+ },
+});
 
 
 $(document).ready(function () {
