@@ -404,7 +404,7 @@
 }
 @media (max-width: 760px){
   .arrow__pagination img{
-    padding: 0 14px;
+    margin: 0 14px;
   }
   .section_margin{
     margin-bottom: 40px;
@@ -546,7 +546,8 @@
 }
 @media (max-width: 690px){
   .arrow__pagination img{
-    padding: 0 4px;
+    max-width: 34px;
+    margin: 0 4px;
   }
   .arrow__pagination{
     font-size: 14px;
