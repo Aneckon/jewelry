@@ -83,6 +83,9 @@ header {
 }
 .modal-header {
   border-bottom: none;
+  padding: 0;
+  padding-left: 1em;
+  padding-right: 1em;
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important; 
 }
@@ -154,12 +157,20 @@ header {
   padding-top: 22px;
   padding-bottom: 8px;
 }
+.header_scroll-logo{
+  max-width: 138px !important;
+  width: 100% !important;
+}
 .header__logo {
   max-width: 200px;
   width: 100%;
 }
 .header__logo img {
   width: 100%;
+}
+.tel{
+  color: #7B2C33 !important;
+  font-weight: bold !important;
 }
 .header__nav {
   display: flex;
@@ -191,6 +202,14 @@ header {
 
 .section__swiper {
   margin-top: 170px;
+  position: relative;
+}
+.swiper__inner{
+  z-index: 17;
+  width: 100%;
+  position: absolute;
+  max-height: 769px;
+  height: 100%;
 }
 
 .swiper {
@@ -235,7 +254,7 @@ header {
 .swiper__content {
   position: absolute;
   left: 300px;
-  top: 91px;
+  top: 191px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -268,12 +287,16 @@ header {
   align-items: center;
   text-align: center;
   background: #7b2c33;
-  border: 1px solid #7b2c33;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
   color: #ffffff;
+  transition: .3s;
+}
+.section__btn:hover{
+  background: #6b2127;
+  color: #fff !important;
 }
 .swiper__info {
   padding-top: 34px;
@@ -281,6 +304,7 @@ header {
   left: 0;
   bottom: 0;
   height: 100px;
+  z-index: 17;
   background: #fff;
   padding-left: 300px;
   padding-right: 68px;
@@ -400,6 +424,7 @@ header {
   align-items: center;
 }
 .section__header {
+  padding-bottom: 30px;
   display: flex;
   align-items: center;
 }
@@ -522,7 +547,7 @@ header {
   margin-top: 165px;
 }
 .form__text {
-  padding-top: 41px;
+  padding-top: 21px;
 }
 .form__text p {
   padding-bottom: 20px;
@@ -625,6 +650,20 @@ header {
   opacity: 0.5;
   border: 1px solid #ffffff;
   color: #ffffff;
+  transition: .3s;
+}
+.btn-close{
+  color: #fff !important;
+  background: transparent url(../img/close_big.svg) center/1em auto no-repeat;
+}
+.modal-body{
+  padding: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.form__item form input:last-child:hover{
+  background: transparent !important;
+  color: #fff !important;
 }
 .form__item form input::placeholder {
   font-style: normal;
@@ -981,13 +1020,17 @@ header {
   justify-content: center;
   align-items: center;
   background: #7b2c33;
-  border: 1px solid #7b2c33;
+  border: none;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
   color: #ffffff;
   margin: 0 auto;
+  transition: .3s;
+}
+.sperku__btn:hover{
+  background: #6b2127;
 }
 .sperku__swiper {
   margin-top: 37px;

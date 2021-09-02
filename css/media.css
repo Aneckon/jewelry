@@ -1,4 +1,7 @@
 @media (max-width: 1600px){
+  .swiper__content{
+    top: 100px;
+  }
   .header__list{
     max-width: 343px;
   }
@@ -139,6 +142,21 @@
   }
 }
 @media (max-width: 1200px){
+  .sluzby__item-ser{
+    max-width: 100%;
+  }
+  .sluzby__item-bold{
+    max-width: 100%;
+  }
+  .sluzby__item-itl{
+    max-width: 100%;
+  }
+  .sluzby__img{
+    max-width: 100%;
+  }
+  .section__header{
+    padding-bottom: 25px;
+  }
   .arrow__pagination{
     font-size: 20px;
   }
@@ -179,10 +197,10 @@
     max-width: 220px;
   }
   .form__item form input{
-    max-width: 245px;
+    max-width: 325px;
   }
   .form__item form textarea{
-    max-width: 245px;
+    max-width: 325px;
   }
   .sluzby__header p{
     font-size: 28px;
@@ -209,12 +227,12 @@
     font-size: 14px;
   }
   .swiper__content{
-    top: 10%;
+    top: 5%;
     left: 15px;
     right: 15px;
   }
   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-    left: 97.5%;
+    left: 96%;
     top: 10%;
   }
   .swiper__messenges{
@@ -224,16 +242,13 @@
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    height: 60px;
+    height: 70px;
   }
   .swiper__info p{
     font-size: 13px;
   }
   .swiper__info::before{
     font-size: 52px;
-  }
-  .section__header h2{
-    font-size: 32px;
   }
   .section__header::before{
     font-size: 32px;
@@ -252,6 +267,10 @@
   }
 }
 @media (max-width: 990px){
+  .max_section{
+    max-width: 30% !important;
+    height: 55px !important;
+  }
   .zapinani {
     margin-top: 140px;
   }
@@ -297,7 +316,7 @@
     margin-top: 20px;
   }
   .map__link{
-    text-align: center;
+    text-align: left;
   }
   .map__link a{
     font-size: 15px;
@@ -324,17 +343,14 @@
     padding-left: 0;
     padding-top: 50px;
   }
-  .center{
-    justify-content: center;
-  }
   .onas__info{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
   }
 }
 @media (max-width: 960px){
+  .section__header{
+    padding-bottom: 20px;
+  }
   .arrow__pagination{
     font-size: 16px;
   }
@@ -392,12 +408,8 @@
   .swiper__info::before{
     font-size: 42px;
   }
-  .section__header h2{
-    font-size: 26px;
-  }
   .onas__item{
     padding-left: 0;
-    padding-top: 20px;
     width: 100%;
     text-align: center;
   }
@@ -526,7 +538,7 @@
     margin-right: 10px;
   }
   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-    left: 95.5%;
+    left: 94%;
   }
   .section__swiper{
     margin-top: 120px;
@@ -545,6 +557,22 @@
   }
 }
 @media (max-width: 690px){
+  .max_section{
+    max-width: 60% !important;
+    height: 55px !important;
+  }
+  .form__item form input{
+    max-width: 245px;
+  }
+  .form__item form textarea{
+    max-width: 245px;
+  }
+  .section__header{
+    padding-bottom: 15px;
+  }
+  .swiper__info{
+    height: 60px;
+  }
   .arrow__pagination img{
     max-width: 34px;
     margin: 0 4px;
@@ -614,6 +642,13 @@
   }
 }
 @media (max-width: 460px){
+  .max_section{
+    max-width: 100% !important;
+    height: 55px !important;
+  }
+  .section__header{
+    padding-bottom: 10px;
+  }
   .zapinani {
     margin-top: 120px;
   }
@@ -639,9 +674,6 @@
   }
   .form__text p{
     font-size: 14px;
-  }
-  .sluzby__header p{
-    font-size: 18px;
   }
   .onas__bg{
     max-width: 200px;
@@ -695,15 +727,21 @@
   }
 }
 @media (max-width: 360px){
+  .sperku_left{
+    max-width: 100%;
+  }
+  .map__img{
+    height: 250px;
+  }
+  .map__img img{
+    height: 100%;
+  }
   .map__img::after {
     max-width: 140px;
     top: -20px;
   }
   .sluzby__link a {
     font-size: 10px;
-  }
-  .sluzby__header p{
-    font-size: 16px;
   }
   .onas__bg:first-child{
     max-width: 100px;

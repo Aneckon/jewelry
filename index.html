@@ -45,7 +45,7 @@
           </div>
           <ul class="header__list none">
             <li class="header__item"><a href="#" class="header__link">Kontakt</a></li>
-            <li class="header__item"><a href="tel:42077750951" class="header__link" style="color: #7B2C33;">+42 0777 50
+            <li class="header__item"><a href="tel:42077750951" class="header__link tel">+42 0777 50
                 951</a></li>
             <li class="header__item"><a href="#" class="header__link">CZ <img src="img/dropdowns.svg" alt=""></a></li>
           </ul>
@@ -54,7 +54,7 @@
               <div class="header__mobile-tel">
                 <a href="tel:42077750951" class="header__link"><img src="img/tel.svg" alt=""></a>
               </div>
-              <div class="header__logo">
+              <div class="header__logo header_scroll-logo">
                 <a href="#"><img src="img/logo.svg" alt=""></a>
               </div>
               <ul class="header__list list_scroll">
@@ -64,7 +64,7 @@
                 <li class="header__item"><a href="#" class="header__link">Kontakt</a></li>
               </ul>
               <ul class="header__list list_scroll-but">
-                <li class="header__item"><a href="tel:42077750951" class="header__link" style="color: #7B2C33;">+42 0777
+                <li class="header__item"><a href="tel:42077750951" class="header__link tel">+42 0777
                     50
                     951</a></li>
                 <li class="header__item"><a href="#" class="header__link">CZ <img src="img/dropdowns.svg" alt=""></a>
@@ -99,83 +99,34 @@
     </div>
   </header>
   <section class="section__swiper">
+    <div class="swiper__inner">
+      <div class="swiper__content">
+        <h1 class="swiper__header">Oprava šperků</h1>
+        <p class="swiper__subheader">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+          Velit
+          officia consequat duis enim velit mollit.</p>
+        <button type="button" class="sperku__btn sperku_left" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Konzultace zdarma
+        </button>
+      </div>
+      <div class="swiper__info">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua</p>
+      </div>
+    </div>
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <img src="img/swiper__bg.jpg" alt="">
-          <div class="swiper__inner">
-            <div class="swiper__content">
-              <h1 class="swiper__header">Oprava šperků</h1>
-              <p class="swiper__subheader">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                Velit
-                officia consequat duis enim velit mollit.</p>
-              <button type="button" class="sperku__btn sperku_left" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop">
-                Konzultace zdarma
-              </button>
-            </div>
-            <div class="swiper__info">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua</p>
-            </div>
-          </div>
         </div>
         <div class="swiper-slide">
           <img src="img/swiper__bg.jpg" alt="">
-          <div class="swiper__inner">
-            <div class="swiper__content">
-              <h1 class="swiper__header">Oprava šperků</h1>
-              <p class="swiper__subheader">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                Velit
-                officia consequat duis enim velit mollit.</p>
-              <button type="button" class="sperku__btn sperku_left" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop">
-                Konzultace zdarma
-              </button>
-            </div>
-            <div class="swiper__info">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua</p>
-            </div>
-          </div>
         </div>
         <div class="swiper-slide">
           <img src="img/swiper__bg.jpg" alt="">
-          <div class="swiper__inner">
-            <div class="swiper__content">
-              <h1 class="swiper__header">Oprava šperků</h1>
-              <p class="swiper__subheader">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                Velit
-                officia consequat duis enim velit mollit.</p>
-              <button type="button" class="sperku__btn sperku_left" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop">
-                Konzultace zdarma
-              </button>
-            </div>
-            <div class="swiper__info">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua</p>
-            </div>
-          </div>
         </div>
         <div class="swiper-slide">
           <img src="img/swiper__bg.jpg" alt="">
-          <div class="swiper__inner">
-            <div class="swiper__content">
-              <h1 class="swiper__header">Oprava šperků</h1>
-              <p class="swiper__subheader">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                Velit
-                officia consequat duis enim velit mollit.</p>
-              <button type="button" class="sperku__btn sperku_left" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop">
-                Konzultace zdarma
-              </button>
-            </div>
-            <div class="swiper__info">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua</p>
-            </div>
-          </div>
         </div>
       </div>
       <div class="swiper-pagination"></div>
@@ -210,7 +161,7 @@
                 fugiat
                 nulla pariatur.</p>
             </div>
-            <a class="section__btn" href="#">Podrobněji</a>
+            <a class="section__btn max_section" href="#">Podrobněji</a>
           </div>
         </div>
       </div>
@@ -218,86 +169,91 @@
   </section>
   <section class="sluzby">
     <div class="container">
-      <div class="row item_center">
-        <div class="col-6">
-          <div class="section__header">
-            <h2>Služby</h2>
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="sluzby__link">
-            <a href="#">zobrazit všechny služby</a>
-          </div>
-        </div>
+      <div class="section__header">
+        <h2>Služby</h2>
       </div>
       <div class="row">
         <div class="col-md-6 col-xl-4">
-          <div class="sluzby__item-ser">
-            <div class="sluzby__img">
-              <img src="img/sluzby/1.jpg" alt="">
+          <a href="zapinani.html">
+            <div class="sluzby__item-ser">
+              <div class="sluzby__img">
+                <img src="img/sluzby/1.jpg" alt="">
+              </div>
+              <div class="sluzby__header">
+                <p>Oprava šperků</p>
+              </div>
             </div>
-            <div class="sluzby__header">
-              <p>Oprava šperků</p>
+          </a>
+          <a href="zapinani.html">
+            <div class="sluzby__item-bold">
+              <div class="sluzby__img">
+                <img src="img/sluzby/4.jpg" alt="">
+              </div>
+              <div class="sluzby__header">
+                <p>Výroba modelů</p>
+              </div>
             </div>
-          </div>
-          <div class="sluzby__item-bold">
-            <div class="sluzby__img">
-              <img src="img/sluzby/4.jpg" alt="">
-            </div>
-            <div class="sluzby__header">
-              <p>Výroba modelů</p>
-            </div>
-          </div>
+          </a>
         </div>
         <div class="col-md-6 col-xl-4">
-          <div class="sluzby__item-bold">
-            <div class="sluzby__img">
-              <img src="img/sluzby/2.jpg" alt="">
+          <a href="zapinani.html">
+            <div class="sluzby__item-bold">
+              <div class="sluzby__img">
+                <img src="img/sluzby/2.jpg" alt="">
+              </div>
+              <div class="sluzby__header">
+                <p>Oprava šperků</p>
+              </div>
             </div>
-            <div class="sluzby__header">
-              <p>Oprava šperků</p>
+          </a>
+          <a href="zapinani.html">
+            <div class="sluzby__item-ser">
+              <div class="sluzby__img">
+                <img src="img/sluzby/5.jpg" alt="">
+              </div>
+              <div class="sluzby__header">
+                <p>3D simulace</p>
+              </div>
             </div>
-          </div>
-          <div class="sluzby__item-ser">
-            <div class="sluzby__img">
-              <img src="img/sluzby/5.jpg" alt="">
-            </div>
-            <div class="sluzby__header">
-              <p>3D simulace</p>
-            </div>
-          </div>
+          </a>
         </div>
         <div class="col-md-12 col-xl-4">
           <div class="row rom_mobile">
             <div class="col-12 col-md-6 col-xl-12">
-              <div class="sluzby__item-itl">
-                <div class="sluzby__img">
-                  <img src="img/sluzby/3.jpg" alt="">
+              <a href="zapinani.html">
+                <div class="sluzby__item-itl">
+                  <div class="sluzby__img">
+                    <img src="img/sluzby/3.jpg" alt="">
+                  </div>
+                  <div class="sluzby__header">
+                    <p>Komplexní výroba šperků</p>
+                  </div>
                 </div>
-                <div class="sluzby__header">
-                  <p>Komplexní výroba šperků</p>
-                </div>
-              </div>
+              </a>
             </div>
             <div class="col-12 col-md-6 col-xl-12">
-              <div class="sluzby__item-itl">
-                <div class="sluzby__img">
-                  <img src="img/sluzby/6.jpg" alt="">
+              <a href="zapinani.html">
+                <div class="sluzby__item-itl">
+                  <div class="sluzby__img">
+                    <img src="img/sluzby/6.jpg" alt="">
+                  </div>
+                  <div class="sluzby__header">
+                    <p>Laserové pájení, laserové gravírování</p>
+                  </div>
                 </div>
-                <div class="sluzby__header">
-                  <p>Laserové pájení, laserové gravírování</p>
-                </div>
-              </div>
+              </a>
             </div>
             <div class="col-12 col-md-6 col-xl-12">
-              <div class="sluzby__item-itl">
-                <div class="sluzby__img">
-                  <img src="img/sluzby/7.jpg" alt="">
+              <a href="zapinani.html">
+                <div class="sluzby__item-itl">
+                  <div class="sluzby__img">
+                    <img src="img/sluzby/7.jpg" alt="">
+                  </div>
+                  <div class="sluzby__header">
+                    <p>Odlévání šperků</p>
+                  </div>
                 </div>
-                <div class="sluzby__header">
-                  <p>Odlévání šperků</p>
-                </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
