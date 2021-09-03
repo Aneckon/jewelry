@@ -49,6 +49,9 @@
   }
 }
 @media (max-width: 1400px){
+  .main__onas-item{
+    padding: 50px 60px;
+  }
   .zapinani__img-norm {
     margin-bottom: 30px;
   }
@@ -142,6 +145,18 @@
   }
 }
 @media (max-width: 1200px){
+  .main__onas-item{
+    padding: 40px 50px;
+  }
+  .main__onas-item img{
+    max-width: 100px;
+    height: 100px;
+    padding-left: 0;
+    padding-right: 20px;
+  }
+  .main__onas-text .item_text{
+    font-size: 14px;
+  }
   .sluzby__item-ser{
     max-width: 100%;
   }
@@ -227,28 +242,26 @@
     font-size: 14px;
   }
   .swiper__content{
-    top: 5%;
+    top: 8%;
     left: 15px;
     right: 15px;
   }
   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
     left: 96%;
-    top: 10%;
+    top: 25%;
   }
   .swiper__messenges{
     right: 20px;
   }
   .swiper__info{
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .swiper__info p{
     font-size: 13px;
-  }
-  .swiper__info::before{
-    font-size: 52px;
+    line-height: 18px;
   }
   .section__header::before{
     font-size: 32px;
@@ -267,6 +280,17 @@
   }
 }
 @media (max-width: 990px){
+  .main__onas p{
+    font-size: 14px;
+  }
+  .swiper-slide img{
+    height: 400px;
+  }
+  .swiper__content{
+    top: 5%;
+    left: 15px;
+    right: 15px;
+  }
   .max_section{
     max-width: 30% !important;
     height: 55px !important;
@@ -285,9 +309,6 @@
   }
   .arrow__pagination{
     font-size: 18px;
-  }
-  .section_margin{
-    margin-bottom: 50px;
   }
   .footer__item{
     padding-bottom: 40px;
@@ -348,6 +369,33 @@
   }
 }
 @media (max-width: 960px){
+  .main__onas-item{
+    position: relative;
+    padding: 30px 40px;
+  }
+  .main__onas-item img{
+    opacity: .1;
+    position: absolute;
+    z-index: 1;
+    max-width: 300px;
+    height: 300px;
+    top: 0;
+    left: 40px;
+    right: 40px;
+    margin: 0 auto;
+  }
+  .main__onas p{
+    z-index: 2;
+  }
+  .main__onas-img img{
+    max-height: 396px;
+  }
+  .footer__logo{
+    max-width: 200px;
+  }
+  .onas__info p{
+    max-width: 100%;
+  }
   .section__header{
     padding-bottom: 20px;
   }
@@ -396,17 +444,18 @@
   }
   .swiper__messenges{
     right: 10px;
-    bottom: 25px;
   }
   .swiper-slide img {
-    height: 469px;
+    height: 456px;
   }
   .swiper__messenges img{
     max-width: 50px;
     height: 50px;
   }
-  .swiper__info::before{
-    font-size: 42px;
+  .swiper__content{
+    top: 20%;
+    left: 15px;
+    right: 15px;
   }
   .onas__item{
     padding-left: 0;
@@ -415,17 +464,14 @@
   }
 }
 @media (max-width: 760px){
+  .main__onas{
+    margin-top: 120px;
+  }
   .arrow__pagination img{
     margin: 0 14px;
   }
-  .section_margin{
-    margin-bottom: 40px;
-  }
   .footer__link{
     font-size: 14px;
-  }
-  .footer__item:last-child{
-    text-align: right;
   }
   .footer__form-text{
     font-size: 14px;
@@ -515,26 +561,22 @@
   }
   .swiper__header{
     font-size: 32px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
   }
   .swiper__subheader{
     font-size: 13px;
-    padding-bottom: 13px;
+    padding-bottom: 30px;
   }
   .section__btn{
     font-size: 13px;
     max-width: 160px;
     height: 40px;
   }
-  .swiper-slide img {
-    height: 369px;
-  }
   .swiper__messenges img{
     max-width: 40px;
     height: 40px;
   }
   .swiper__info::before{
-    font-size: 32px;
     margin-right: 10px;
   }
   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
@@ -544,7 +586,15 @@
     margin-top: 120px;
   }
   .swiper__info{
-    padding-right: 10px;
+    max-width: 305px;
+    width: 100%;
+    right: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 120px;
+    bottom: -80px;
   }
   .swiper__info p{
     max-width: 290px;
@@ -557,6 +607,9 @@
   }
 }
 @media (max-width: 690px){
+  .main__onas-img img{
+    max-height: 296px;
+  }
   .max_section{
     max-width: 60% !important;
     height: 55px !important;
@@ -570,18 +623,12 @@
   .section__header{
     padding-bottom: 15px;
   }
-  .swiper__info{
-    height: 60px;
-  }
   .arrow__pagination img{
     max-width: 34px;
     margin: 0 4px;
   }
   .arrow__pagination{
     font-size: 14px;
-  }
-  .section_margin{
-    margin-bottom: 10px;
   }
   .map__btn{
     height: 42px;
@@ -609,6 +656,9 @@
   }
 }
 @media (max-width: 600px){
+  .footer__logo{
+    max-width: 140px;
+  }
   .galerie{
     margin-top: 150px;
   }
@@ -618,7 +668,7 @@
   }
   .map__img::after {
     max-width: 155px;
-    height: 150px;
+    height: 120px;
   }
   .form__item::after{
     display: none;
@@ -642,6 +692,40 @@
   }
 }
 @media (max-width: 460px){
+  .main__onas-img img{
+    max-height: 256px;
+  }
+  .main__onas{
+    margin-top: 100px;
+  }
+  .main__onas-item img{
+    left: 5px;
+    right: 0;
+  }
+  .main__onas-item{
+    position: relative;
+    padding: 10px 20px;
+  }
+  .map__img::after {
+    max-width: 120px;
+    height: 100px;
+    top: 20px;
+  }
+  .footer_Atelier{
+    flex-direction: column;
+  }
+  .footer__item:last-child{
+    text-align: left;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    flex-direction: row;
+    justify-content: space-between;
+    top: 72%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 146px;
+  }
   .max_section{
     max-width: 100% !important;
     height: 55px !important;
@@ -709,13 +793,6 @@
     right: 5px;
   }
   .swiper__info p{
-    font-size: 12px;
-  }
-  .swiper__info{
-    padding-left: 10px;
-    padding-top: 0;
-  }
-  .swiper__info p{
     max-width: 270px;
   }
   .onas{
@@ -727,6 +804,15 @@
   }
 }
 @media (max-width: 360px){
+  .main__onas-img img{
+    max-height: 206px;
+  }
+  .grid-item{
+    padding: 10px;
+  }
+  .swiper__messenges {
+    bottom: 10px;
+  }
   .sperku_left{
     max-width: 100%;
   }
@@ -737,8 +823,9 @@
     height: 100%;
   }
   .map__img::after {
-    max-width: 140px;
-    top: -20px;
+    max-width: 100px;
+    height: 80px;
+    top: 20px;
   }
   .sluzby__link a {
     font-size: 10px;
@@ -759,7 +846,10 @@
   .swiper__subheader{
     max-width: 290px;
     font-size: 15px;
-  line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    padding-bottom: 44px;
   }
   .swiper__info p{
     max-width: 350px;
@@ -767,21 +857,6 @@
   }
   .swiper__info::before{
     margin-right: 10px;
-  }
-  .swiper__info::before{
-    font-size: 28px;
-  }
-  .swiper__messenges{
-    bottom: 70px;
-  }
-  .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
-    flex-direction: row;
-    justify-content: space-between;
-    top: 60%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 146px;
   }
   .section__btn{
     max-width: 100%;

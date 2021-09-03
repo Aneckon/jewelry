@@ -3,12 +3,22 @@ $(window).scroll(function (event) {
 
   if (scroll >= 1) {
     $(".top").addClass("shows");
+    $(".header").addClass("header-scrol");
     $(".header__scroll").addClass("header__block");
     $(".none").addClass("shows");
   } else {
     $(".top").removeClass("shows");
+    $(".header").removeClass("header-scrol");
     $(".header__scroll").removeClass("header__block");
     $(".none").removeClass("shows");
+  }
+});
+
+$('.grid').isotope({
+  itemSelector: '.grid-item',
+  masonry: {
+    columnWidth: 100,
+    horizontalOrder: true,
   }
 });
 
@@ -19,10 +29,13 @@ $('a[href="#top"]').on('click', function () {
 
 
 var swiper = new Swiper(".mySwiper", {
-   pagination: {
-     el: ".swiper-pagination",
-     clickable: true,
-   },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  autoplay: {
+    delay: 4000,
+  },
 });
 
 
