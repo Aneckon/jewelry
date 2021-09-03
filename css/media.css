@@ -37,7 +37,7 @@
     font-size: 15px;
   }
   .list_scroll{
-    max-width: 403px !important;
+    max-width: 503px !important;
     width: 100%;
   }
   .list_scroll-but{
@@ -49,6 +49,9 @@
   }
 }
 @media (max-width: 1400px){
+  .topheader__header {
+    padding-right: 0px;
+  }
   .main__onas-item{
     padding: 50px 60px;
   }
@@ -92,7 +95,7 @@
     margin-top: 150px;
   }
   .header__list{
-    max-width: 303px !important;
+    max-width: 403px !important;
   }
   .header__logo{
     max-width: 160px;
@@ -121,7 +124,6 @@
   }
   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
     left: 94.5%;
-    top: 10%;
   }
   .swiper__messenges{
     right: 70px;
@@ -221,7 +223,7 @@
     font-size: 28px;
   }
   .header__list{
-    max-width: 283px !important;
+    max-width: 353px !important;
   }
   .header__logo{
     max-width: 160px;
@@ -369,6 +371,19 @@
   }
 }
 @media (max-width: 960px){
+  .sperku {
+    margin-top: 150px;
+  }
+  .Atelier_mobail{
+    padding-top: 50px;
+    display: block !important;
+  }
+  .Atelier_none{
+    display: none;
+  }
+  .Atelier{
+    padding-bottom: 15px !important;
+  }
   .main__onas-item{
     position: relative;
     padding: 30px 40px;
@@ -421,7 +436,7 @@
     font-size: 24px;
   }
   .header__list{
-    max-width: 253px !important;
+    max-width: 283px !important;
   }
   .header__logo{
     max-width: 140px;
@@ -463,7 +478,15 @@
     text-align: center;
   }
 }
+@media (max-width: 860px){
+  .header__list{
+    max-width: 253px !important;
+  }
+}
 @media (max-width: 760px){
+  .sperku {
+    margin-top: 140px;
+  }
   .main__onas{
     margin-top: 120px;
   }
@@ -481,9 +504,6 @@
   }
   .map__link img{
     margin-right: 10px;
-  }
-  .map__link a{
-    font-size: 14px;
   }
   .section__header::before{
     font-size: 26px;
@@ -656,6 +676,12 @@
   }
 }
 @media (max-width: 600px){
+  .sperku {
+    margin-top: 150px;
+  }
+  .onas__images{
+    margin-top: 35px;
+  }
   .footer__logo{
     max-width: 140px;
   }
@@ -692,6 +718,12 @@
   }
 }
 @media (max-width: 460px){
+  .sperku {
+    margin-top: 120px;
+  }
+  .topheader__title{
+    letter-spacing: 0;
+  }
   .main__onas-img img{
     max-height: 256px;
   }

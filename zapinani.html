@@ -44,11 +44,17 @@
           <div class="header__logo none">
             <a href="#"><img src="img/logo.svg" alt=""></a>
           </div>
-          <ul class="header__list none">
+          <ul class="header__list none header_list-right">
             <li class="header__item"><a href="#" class="header__link">Kontakt</a></li>
             <li class="header__item"><a href="tel:42077750951" class="header__link tel">+42 0777 50
                 951</a></li>
-            <li class="header__item"><a href="#" class="header__link">CZ <img src="img/dropdowns.svg" alt=""></a></li>
+            <li class="header__item header__dropdons">
+              <a href="#" class="header__link">CZ <img src="img/dropdowns.svg" alt=""></a>
+              <div class="header__dropdons-content">
+                <a href="#" class="header__link dropdons_link">ENG</a>
+                <a href="#" class="header__link dropdons_link">RU</a>
+              </div>
+            </li>
           </ul>
           <div class="header__scroll">
             <div class="header__nav header_nav-scroll">
@@ -68,7 +74,12 @@
                 <li class="header__item"><a href="tel:42077750951" class="header__link tel">+42 0777
                     50
                     951</a></li>
-                <li class="header__item"><a href="#" class="header__link">CZ <img src="img/dropdowns.svg" alt=""></a>
+                <li class="header__item header__dropdons">
+                  <a href="#" class="header__link">CZ <img src="img/dropdowns.svg" alt=""></a>
+                  <div class="header__dropdons-content">
+                    <a href="#" class="header__link dropdons_link">ENG</a>
+                    <a href="#" class="header__link dropdons_link">RU</a>
+                  </div>
                 </li>
               </ul>
               <div class="header__burger">
@@ -191,9 +202,38 @@
                 <img src="img/logo.svg" alt="">
               </div>
               <div class="footer__social">
-                <a href="#"><img src="img/footer/instagram.svg" alt=""></a>
-                <a href="#"><img src="img/footer/whatsapp.svg" alt=""></a>
-                <a href="#"><img src="img/footer/facebook.svg" alt=""></a>
+                <a href="#"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M17.7379 0H7.26211C3.25776 0 0 3.25776 0 7.26211V17.7379C0 21.7422 3.25776 25 7.26211 25H17.7379C21.7422 25 25 21.7422 25 17.7379V7.26211C25 3.25776 21.7422 0 17.7379 0ZM23.0469 17.7379C23.0469 20.6653 20.6653 23.0469 17.7379 23.0469H7.26211C4.33472 23.0469 1.95312 20.6653 1.95312 17.7379V7.26211C1.95312 4.33472 4.33472 1.95312 7.26211 1.95312H17.7379C20.6653 1.95312 23.0469 4.33472 23.0469 7.26211V17.7379Z"
+                      fill="#7B2C33" />
+                    <path
+                      d="M12.5 5.76172C8.78447 5.76172 5.76172 8.78447 5.76172 12.5C5.76172 16.2155 8.78447 19.2383 12.5 19.2383C16.2155 19.2383 19.2383 16.2155 19.2383 12.5C19.2383 8.78447 16.2155 5.76172 12.5 5.76172ZM12.5 17.2852C9.86147 17.2852 7.71484 15.1385 7.71484 12.5C7.71484 9.86147 9.86147 7.71484 12.5 7.71484C15.1385 7.71484 17.2852 9.86147 17.2852 12.5C17.2852 15.1385 15.1385 17.2852 12.5 17.2852Z"
+                      fill="#7B2C33" />
+                    <path
+                      d="M19.3359 6.64062C19.8753 6.64062 20.3125 6.2034 20.3125 5.66406C20.3125 5.12472 19.8753 4.6875 19.3359 4.6875C18.7966 4.6875 18.3594 5.12472 18.3594 5.66406C18.3594 6.2034 18.7966 6.64062 19.3359 6.64062Z"
+                      fill="#7B2C33" />
+                  </svg></a>
+                <a href="#"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                      d="M20.7905 4.17509C18.5978 1.97983 15.6817 0.77033 12.5751 0.769043C6.17356 0.769043 0.96364 5.97882 0.961065 12.3821C0.960207 14.429 1.49493 16.4271 2.51131 18.1884L0.863647 24.2065L7.02043 22.5915C8.71687 23.5169 10.6267 24.0046 12.5704 24.0051H12.5752C18.9761 24.0051 24.1866 18.7949 24.189 12.3914C24.1903 9.28802 22.9834 6.37021 20.7905 4.17509ZM12.5751 22.0438H12.5711C10.839 22.043 9.1403 21.5775 7.658 20.6982L7.30567 20.4889L3.65214 21.4474L4.62732 17.8853L4.39773 17.52C3.43142 15.9831 2.92115 14.2067 2.92201 12.3828C2.92401 7.06058 7.25446 2.73056 12.579 2.73056C15.1573 2.73142 17.581 3.73678 19.4035 5.5614C21.226 7.38602 22.229 9.81131 22.2282 12.3907C22.2259 17.7133 17.8957 22.0438 12.5751 22.0438ZM17.87 14.8141C17.5799 14.6687 16.1531 13.9669 15.887 13.87C15.6212 13.7731 15.4275 13.7249 15.2343 14.0153C15.0407 14.3057 14.4847 14.9594 14.3153 15.153C14.1459 15.3467 13.9769 15.371 13.6866 15.2256C13.3964 15.0805 12.4614 14.7739 11.3529 13.7853C10.4903 13.0158 9.90791 12.0655 9.73854 11.7751C9.56945 11.4844 9.73711 11.3425 9.86586 11.1829C10.18 10.7928 10.4946 10.3838 10.5913 10.1902C10.6881 9.99656 10.6396 9.82704 10.5669 9.68184C10.4946 9.53665 9.91421 8.10828 9.67245 7.52706C9.4367 6.96144 9.19766 7.03783 9.01942 7.02896C8.85034 7.02052 8.65679 7.0188 8.46324 7.0188C8.26983 7.0188 7.95541 7.09133 7.68933 7.38201C7.4234 7.67255 6.67381 8.3745 6.67381 9.80287C6.67381 11.2312 7.71365 12.6111 7.85871 12.8048C8.00376 12.9985 9.90505 15.9296 12.816 17.1864C13.5084 17.4857 14.0488 17.6641 14.4704 17.7978C15.1656 18.0187 15.798 17.9875 16.2981 17.9129C16.8558 17.8295 18.0149 17.2108 18.2569 16.533C18.4987 15.8551 18.4987 15.2741 18.426 15.153C18.3537 15.032 18.1601 14.9594 17.87 14.8141Z"
+                      fill="#7B2C33" />
+                  </svg>
+                </a>
+                <a href="#"><svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                      <path
+                        d="M16.6635 4.15104H18.9458V0.176042C18.5521 0.121875 17.1979 0 15.6208 0C12.3302 0 10.076 2.06979 10.076 5.87396V9.375H6.44476V13.8187H10.076V25H14.5281V13.8198H18.0125L18.5656 9.37604H14.5271V6.31458C14.5281 5.03021 14.8739 4.15104 16.6635 4.15104Z"
+                        fill="#7B2C33" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0">
+                        <rect width="25" height="25" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg></a>
               </div>
             </div>
           </div>
@@ -207,7 +247,7 @@
                 <li class="footer__item"><a href="#" class="footer__link">služby</a></li>
                 <li class="footer__item"><a href="#" class="footer__link">KONTAKT</a></li>
               </ul>
-              <ul class="footer__list footer_Atelier">
+              <ul class="footer__list footer_Atelier Atelier_none">
                 <li class="footer__item">
                   <p class="footer__text">© 2021 Jewelry Atelier</p>
                 </li>
@@ -228,6 +268,14 @@
               </form>
             </div>
           </div>
+          <ul class="footer__list footer_Atelier Atelier_mobail">
+            <li class="footer__item Atelier">
+              <p class="footer__text">© 2021 Jewelry Atelier</p>
+            </li>
+            <li class="footer__item Atelier">
+              <p class="footer__text">PRIVACY POLICY</p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
