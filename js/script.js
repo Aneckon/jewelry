@@ -25,14 +25,20 @@ $(document).ready(function () {
     $('.header__mobile-menu').toggleClass('open__menu');
     $('.header__burger-img').toggleClass('header__burger-img__remove');
     $('body').toggleClass('fixed');
+    $('.header').toggleClass('header__bg-color');
   });
 });
 
 
-$('.grid').isotope({
+var $grid = $('.grid').isotope({
   itemSelector: '.grid-item',
+  percentPosition: true,
   masonry: {
-    columnWidth: 100,
-    horizontalOrder: true,
+      columnWidth: '.grid-sizer',
+      gutter: 40
   }
+});
+// layout Isotope after each image loads
+$grid.imagesLoaded().progress(function () {
+  $grid.isotope('layout');
 });
